@@ -1,7 +1,7 @@
 
 # Euromillion scraper 
 
-By using web scraping, the aime of the project is to get every euromillion results to do statistic over it.
+By using web scraping, the aim of the project is to get every euromillion results to do statistic over it.
 To do so, we will use **selenium** package. 
 
 ```
@@ -98,7 +98,7 @@ def scrap_numbers(browser) -> list:
     return results
 ```
 
-Foreach page url scrap the content and add it to the record. 
+Foreach page url, scrap the content and add it to the record. 
 
 This action might take some times because scraping process is timeconsuming
 
