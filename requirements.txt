@@ -1,0 +1,16 @@
+numpy==1.16.2
+selenium==3.141.0
+pandas==0.24.2
+seaborn==0.11.1
+matplotlib==3.0.3
+fastapi==0.63.0
+typing-extensions==3.7.4.3
+pydantic==1.8.1
+starlette==0.1
+h11==0.12.0
+httptools==0.1.1
+python-dotenv==0.17.0
+uvicorn==0.13.4
+uvloop==0.15.2
+watchgod==0.7
+websockets==8.13.6
