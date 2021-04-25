@@ -29,10 +29,17 @@ class Controller():
 
         return np.asarray((unique, counts)).T
 
-    def get_random_draw(self, count: int):
+    def get_random_draws(self, count: int):
         """
             Generate $(count) random draw to play euromillion
         """
+
+        result = []
+
+        for _ in range(count):
+            result.append(business.generate_random_draw())
+
+        return result
 
     def get_last_draw(self, number):
         """  """

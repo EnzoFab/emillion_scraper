@@ -50,6 +50,19 @@ class Business():
         # can also use flatten
         return self.stars.reshape((self.stars.size, 1))
 
+    def generate_random_draw(self):
+        """
+            Generate a random draw
+        """
+
+        numbers = np.arange(1, 50)
+        stars = np.arange(1, 12)
+
+        r_numbers = np.random.choice(numbers, 5, replace=False)
+        r_stars = np.random.choice(stars, 2, replace=False)
+
+        return {"numbers": r_numbers.tolist(), "stars": r_stars.tolist()}
+
     @property
     def draws(self) -> np.array:
         """

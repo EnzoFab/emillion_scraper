@@ -1,6 +1,8 @@
 euro_million_history.csv
-.ipynb_checkpoints
+notebook/.ipynb_checkpoints
 geckodriver.log
 .idea/
 .vscode/
 venv/
+__pycache__/
+*.pyc
